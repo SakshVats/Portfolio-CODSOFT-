@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px 10px;
+    display: flex;
+}
+.logo img{
+    padding: 10px 50px;
+    width: 100px;
+    height: 100px;
+    
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar .menu {
+    text-decoration: none;
+    margin-left: 400px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 25px;
+}
+
+.middle .about {
+    padding: 30px 100px;
+    max-width: 500px;
+    color:rgb(192, 139, 6);
+}
+.vats{
+    font-size: 40px;
+    color:red;
+    display: inline;
+}
+.middle .about .full {
+    font-family: monospace;
+    color:blue;
+    display: inline;
+}
+
+.middle .links {
+    font-size: 30px;
+    padding: 10px 100px;
+    justify-content: space-between;
+}
+
+.middle .photo {
+    padding: 50px 200px;
+    width: 200px;
+    height: 300px;
+    left: 600px;
+    position: absolute;
+    top: 25%;
+}
+.explore{
+background-color: white;
+padding: 100px 40px;
+
+}
+.skill{
+    padding:80px 500px;
+    color:rgb(164, 74, 108);
+    font-size: 20px;
+    text-decoration: underline;
+    border-radius: 5px;
+    box-shadow: 0 4px 40px red;
+}
+.learn{
+    padding:10px 100px;
+    background-color: white;
+    font-weight: bold;
+}
+.progress-bar {
+    background-color:black;
+    border-radius: 5px; 
+}
+.progress {
+    background-color:peru;
+    height: 10px;
+    border-radius: 5px; 
+}
+.outproject {
+    padding : 40px 100px;
+    border-radius: 10px;
+}
+.project{
+    padding: 20px 400px;
+    color:black;
+    font-size: 20px;
+    text-decoration: underline;
+    border-radius: 5px;
+    box-shadow: 0 4px 200px rgb(133, 115, 230);
+}
+.out{
+    padding: 100px 10px;
+}
+.outside1{
+    padding:30px 200px;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    left: 300px;
+    position: absolute;
+}
+.outside2{
+    padding:20px 200px;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    left: 500px;
+    position: absolute;
+}
+.outside3{
+    padding:30px 300px;
+}
+.box3{
+    width: 300px;
+    height: 300px;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    left: 700px;
+    position: absolute;
+}
+.outresume{
+    padding: 200px 100px;
+}
+.resume{
+    padding: 10px 450px;
+    color:blueviolet;
+    text-decoration: underline;
+    border-radius: 10px;
+    box-shadow: 0 6px 30px red;
+}
+.outresume .respart1 img{
+    padding: 30px 100px;
+    width:300px;
+    height: 400px;
+}
+.outresume button{
+    padding: 30px 40px;
+    margin-left: 800px;
+    
+}
+/*CONTACT US SECTION*/
+.outer{
+    border-radius: 10px;
+    box-shadow: 2px 2px 50px rgb(224, 57, 224);
+}
+.outer .contact{
+    color:black;
+    padding: 10px 450px;
+}
+.outer .box1{
+    background-color: grey;
+    left:200px;
+    width: 300px;
+    height: 50px; ;
+    display: inline-table;
+    border-radius: 50px;
+    box-shadow: 2px 2px 50px grey;
+}
+.outer .box2{
+    background-color: grey;
+    float: right;
+    left: 650px;
+    width:500px;
+    height:400px;
+    display: inline-table;
+    border-radius: 50px;
+    box-shadow: 2px 2px 50px grey;
+}
+.box1 .container{
+    color:black;
+    position: relative;
+    left:10%;
+    padding: 3px 10px;
+    
+}
+.box2 .container1{
+    color:black;
+    position: relative;
+    left:10%;
+    padding: 30px 40px;
+}
+.container1 .form{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.submitbtn a:hover {
+    color: blueviolet;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 450px 0px;
+    margin-bottom: 5px;
+}
+
+
